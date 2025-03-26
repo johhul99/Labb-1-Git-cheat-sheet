@@ -22,5 +22,9 @@
     {
       "command": "git commit -m \"<meddelande>\"",
       "description": "Commitar staged ändringar med ett meddelande som beskriver ändringen."
+    },
+    {
+      "command": "git commit -am \"<meddelande>\"",
+      "description": "Commitar alla spårade ändringar (hoppar över git add) med ett meddelande."
     }
 ]
