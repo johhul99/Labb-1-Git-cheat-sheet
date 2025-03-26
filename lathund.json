@@ -34,5 +34,9 @@
     {
       "command": "git pull",
       "description": "Hämtar och slår ihop ändringar från fjärr-repot till din lokala branch."
+    },
+    {
+      "command": "git fetch",
+      "description": "Hämtar ändringar från fjärr-repot utan att slå ihop dem med din lokala kod."
     }
 ]
