@@ -18,5 +18,9 @@
     {
       "command": "git add .",
       "description": "Lägger till alla ändrade och nya filer i nuvarande mapp till staging."
+    },
+    {
+      "command": "git commit -m \"<meddelande>\"",
+      "description": "Commitar staged ändringar med ett meddelande som beskriver ändringen."
     }
 ]
