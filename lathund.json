@@ -50,5 +50,9 @@
     {
       "command": "git branch -d <namn>",
       "description": "Tar bort en lokal branch (så länge den är mergad)."
+    },
+    {
+      "command": "git checkout <branch>",
+      "description": "Byter till en annan existerande branch."
     }
 ]
