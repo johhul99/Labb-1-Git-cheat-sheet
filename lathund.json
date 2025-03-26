@@ -46,5 +46,9 @@
     {
       "command": "git branch <namn>",
       "description": "Skapar en ny branch med angivet namn."
+    },
+    {
+      "command": "git branch -d <namn>",
+      "description": "Tar bort en lokal branch (så länge den är mergad)."
     }
 ]
