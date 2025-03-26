@@ -1,0 +1,62 @@
+git init
+git clone <url>
+git status
+git add <fil>
+git add .
+git commit -m "<meddelande>"
+git commit -am "<meddelande>"
+git push
+git pull
+git fetch
+git branch
+git branch <namn>
+git branch -d <namn>
+git checkout <branch>
+git checkout -b <ny-branch>
+git merge <branch>
+git log
+git log --oneline
+git log --graph
+git remote
+git remote add origin <url>
+git remote -v
+git config --global user.name "<namn>"
+git config --global user.email "<epost>"
+git reset
+git reset <fil>
+git reset --hard
+git reset --soft HEAD~1
+git diff
+git diff <fil>
+git stash
+git stash save "<meddelande>"
+git stash list
+git stash apply
+git stash pop
+git stash drop
+git rm <fil>
+git rm --cached <fil>
+git mv <från> <till>
+git tag
+git tag <tagg>
+git tag -d <tagg>
+git show
+git show <commit>
+git blame <fil>
+git clean -f
+git archive
+git describe
+git cherry-pick <commit>
+git reflog
+git bisect start
+git bisect bad
+git bisect good <commit>
+git grep <sökterm>
+git init --bare
+git shortlog
+git gc
+git fsck
+git rev-parse
+git submodule add <url> <path>
+git submodule init
+git submodule update
