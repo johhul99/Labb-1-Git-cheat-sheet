@@ -10,5 +10,9 @@
     {
       "command": "git status",
       "description": "Visar aktuell status på filer, vilka som är ändrade, staged, eller inte spårade."
+    },
+    {
+      "command": "git add <fil>",
+      "description": "Lägger till en specifik fil till staging-området inför commit."
     }
 ]
