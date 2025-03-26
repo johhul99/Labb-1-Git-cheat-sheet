@@ -1,0 +1,12 @@
+Använda git commands:
+git add . 
+git commit -m"" 
+git push
+git switch <branch name>
+git switch -c 
+git init
+git add README.md
+git branch -M <branch name>
+git remote add origin <link>
+git push -u origin <branch name>
+git pull
