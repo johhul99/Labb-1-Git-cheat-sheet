@@ -1,14 +1,6 @@
-git clone <url>
-git status
-git add <fil>
-git add .
-git commit -m "<meddelande>"
-git commit -am "<meddelande>"
+Använda git commands:
+git add . 
+git commit -m"" 
 git push
-git pull
-git fetch
-git branch
-git branch <namn>
-git branch -d <namn>
-git checkout <branch>
-git checkout -b <ny-branch>
+git switch <branch name>
+git switch -c 
