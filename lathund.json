@@ -42,5 +42,9 @@
     {
       "command": "git branch",
       "description": "Visar en lista över alla lokala brancher och markerar vilken du är på."
+    },
+    {
+      "command": "git branch <namn>",
+      "description": "Skapar en ny branch med angivet namn."
     }
 ]
