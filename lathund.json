@@ -38,5 +38,9 @@
     {
       "command": "git fetch",
       "description": "Hämtar ändringar från fjärr-repot utan att slå ihop dem med din lokala kod."
+    },
+    {
+      "command": "git branch",
+      "description": "Visar en lista över alla lokala brancher och markerar vilken du är på."
     }
 ]
