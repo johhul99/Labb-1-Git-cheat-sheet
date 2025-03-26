@@ -1,0 +1,32 @@
+Använda git commands:
+
+git status
+git diff
+git add . 
+git commit -m"" 
+git push
+git push origin
+git switch <branch name>
+git switch -c 
+git init
+git add README.md
+git branch -M <branch name>
+git remote add origin <link>
+git push -u origin <branch name>
+git pull
+git pull origin
+git merge <branch name>, Problem: 
+Försökte en merge via git gui, detta dokument följde med till development vilket betyder att .gitignore ej fungera för att jag gick fel väg.
+Försökte återställa development och sedan merge via terminal vilket ledde till en merge konlikt som ej gick att resolvea då git föreslog en merge åt andra hållet (dev-johans-dev).
+Båda worktrees va clean och up to date, merge var fortfarande omöjlig.
+Lösning: 
+Copy-Item johansCommands.txt, lathund.json -Destination ..
+git switch development
+Copy-Item ../johansCommands.txt .
+Copy-Item ../lathund.json .
+git add johansCommands.txt lathund.json
+git commit -m "Manuellt lagt till filer från johans-dev"
+git push origin development
+
+Fick kopiera och ersätta filer manuellt, detta var inte en optimal lösning men i nuvarande miljö fungerade det bra.
+
