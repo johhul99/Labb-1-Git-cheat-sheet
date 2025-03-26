@@ -6,5 +6,9 @@
     {
         "command": "git clone <url>",
         "description": "Klonar ett existerande repo från en URL till din lokala maskin."
+    },
+    {
+      "command": "git status",
+      "description": "Visar aktuell status på filer, vilka som är ändrade, staged, eller inte spårade."
     }
 ]
