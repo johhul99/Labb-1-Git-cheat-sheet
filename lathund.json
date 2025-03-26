@@ -14,5 +14,9 @@
     {
       "command": "git add <fil>",
       "description": "Lägger till en specifik fil till staging-området inför commit."
+    },
+    {
+      "command": "git add .",
+      "description": "Lägger till alla ändrade och nya filer i nuvarande mapp till staging."
     }
 ]
