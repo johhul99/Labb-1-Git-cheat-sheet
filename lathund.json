@@ -7,5 +7,9 @@
        "command": "git log",
        "description": "Visar commit-historiken i kronologisk ordning med detaljer om varje commit."
     },
+    {
+       "command": "git log --oneline",
+       "description": "Visar commit-historiken i ett kompakt format, en rad per commit."
+    },
 
 ]
