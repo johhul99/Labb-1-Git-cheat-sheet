@@ -19,5 +19,9 @@
       "command": "git remote",
       "description": "Visar en lista över alla fjärrrepon som är kopplade till ditt projekt."
     }, 
+    {
+      "command": "git remote add origin <url>",
+      "description": "Lägger till ett nytt fjärr-repo med namnet 'origin' som pekar på den angivna URL:en."
+    }, 
 
 ]
