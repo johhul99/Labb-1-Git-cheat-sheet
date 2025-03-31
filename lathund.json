@@ -65,13 +65,13 @@
        "description": "Slår ihop ändringar från en angiven branch till din nuvarande branch."
     }, 
     {
-      "command": "git merge <branch>",
-      "description": "Slår ihop ändringar från en angiven branch till din nuvarande branch."
+       "command": "git log",
+       "description": "Visar commit-historiken i kronologisk ordning med detaljer om varje commit."
     },
     {
-      "command": "git merge <branch>",
-      "description": "Slår ihop ändringar från en angiven branch till din nuvarande branch."
-    }, 
+       "command": "git log --oneline",
+       "description": "Visar commit-historiken i ett kompakt format, en rad per commit."
+    },
     {
       "command": "git log --graph",
       "description": "Visar commit-historiken med en grafisk representation av branch- och merge-historiken."
