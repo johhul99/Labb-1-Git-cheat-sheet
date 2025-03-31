@@ -11,5 +11,9 @@
        "command": "git log --oneline",
        "description": "Visar commit-historiken i ett kompakt format, en rad per commit."
     },
+    {
+      "command": "git log --graph",
+      "description": "Visar commit-historiken med en grafisk representation av branch- och merge-historiken."
+    },
 
 ]
