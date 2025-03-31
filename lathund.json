@@ -15,5 +15,9 @@
       "command": "git log --graph",
       "description": "Visar commit-historiken med en grafisk representation av branch- och merge-historiken."
     },
+    {
+      "command": "git remote",
+      "description": "Visar en lista över alla fjärrrepon som är kopplade till ditt projekt."
+    }, 
 
 ]
