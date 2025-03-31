@@ -35,5 +35,9 @@
       "command": "git config --global user.email \"<epost>\"",
       "description": "Ställer in din globala e-postadress för Git, som kommer att associeras med dina commits."
     },
+    {
+      "command": "git reset",
+      "description": "Återställer staging-området men lämnar arbetskatalogen oförändrad."
+    }, 
 
 ]
