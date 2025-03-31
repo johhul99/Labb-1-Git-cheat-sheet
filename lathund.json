@@ -59,4 +59,64 @@
       "command": "git checkout -b <ny-branch>",
       "description": "Skapar och byter direkt till en ny branch."
     }
+    {
+      "command": "git merge <branch>",
+      "description": "Slår ihop ändringar från en angiven branch till din nuvarande branch."
+    },
+    {
+      "command": "git rebase <branch>",
+      "description": "Flyttar eller kombinerar om en sekvens av commits till en ny bas-commit."
+    },
+    {
+      "command": "git stash",
+      "description": "Sparar undan dina lokala ändringar temporärt så du kan byta branch."
+    },
+    {
+      "command": "git stash pop",
+      "description": "Återställer dina senast sparade ändringar från stash och tar bort dem från stash-listan."
+    },
+    {
+      "command": "git log",
+      "description": "Visar commit-historiken i kronologisk ordning."
+    },
+    {
+      "command": "git log --oneline",
+      "description": "Visar commit-historiken i ett kompakt format, en rad per commit."
+    },
+    {
+      "command": "git reset --hard <commit>",
+      "description": "Återställer din branch till ett specifikt commit och tar bort alla senare ändringar."
+    },
+    {
+      "command": "git reset --soft <commit>",
+      "description": "Återställer din branch till ett specifikt commit men behåller ändringar som staged."
+    },
+    {
+      "command": "git remote -v",
+      "description": "Visar alla fjärrrepon som är kopplade till ditt projekt med URL:er."
+    },
+    {
+      "command": "git diff",
+      "description": "Visar ändringar mellan arbetskatalogen och staging-området."
+    },
+    {
+      "command": "git diff --staged",
+      "description": "Visar ändringar mellan staging-området och senaste commit."
+    },
+    {
+      "command": "git tag <tagname>",
+      "description": "Skapar en tagg (ofta använd för versionshantering) på nuvarande commit."
+    },
+    {
+      "command": "git blame <fil>",
+      "description": "Visar vem som ändrat varje rad i en fil och i vilken commit."
+    },
+    {
+      "command": "git cherry-pick <commit>",
+      "description": "Applicerar ändringar från ett specifikt commit till din nuvarande branch."
+    },
+    {
+      "command": "git revert <commit>",
+      "description": "Skapar en ny commit som återställer ändringarna från ett specifikt commit."
+    }
 ]
