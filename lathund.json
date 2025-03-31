@@ -3,6 +3,9 @@
        "command": "git merge <branch>",
        "description": "Slår ihop ändringar från en angiven branch till din nuvarande branch."
     },
-   
+    {
+       "command": "git log",
+       "description": "Visar commit-historiken i kronologisk ordning med detaljer om varje commit."
+    },
 
 ]
