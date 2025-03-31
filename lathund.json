@@ -43,5 +43,9 @@
       "command": "git reset <fil>",
       "description": "Tar bort en specifik fil från staging-området men behåller ändringarna i arbetskatalogen."
     }, 
+    {
+      "command": "git reset --hard",
+      "description": "Återställer både staging-området och arbetskatalogen till senaste commit."
+    }, 
 
 ]
