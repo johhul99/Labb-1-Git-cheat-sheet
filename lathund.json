@@ -31,5 +31,9 @@
       "command": "git config --global user.name \"<namn>\"",
       "description": "Ställer in ditt globala användarnamn för Git, som kommer att visas i dina commits."
     }, 
+    {
+      "command": "git config --global user.email \"<epost>\"",
+      "description": "Ställer in din globala e-postadress för Git, som kommer att associeras med dina commits."
+    },
 
 ]
