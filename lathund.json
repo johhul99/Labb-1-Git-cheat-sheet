@@ -38,6 +38,10 @@
     {
       "command": "git reset",
       "description": "Återställer staging-området men lämnar arbetskatalogen oförändrad."
+    },
+    {
+      "command": "git reset <fil>",
+      "description": "Tar bort en specifik fil från staging-området men behåller ändringarna i arbetskatalogen."
     }, 
 
 ]
