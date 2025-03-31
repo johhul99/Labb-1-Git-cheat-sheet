@@ -55,5 +55,8 @@
       "command": "git diff",
       "description": "Visar ändringar mellan arbetskatalogen och staging-området."
     }, 
-
+    {
+      "command": "git diff <fil>",
+      "description": "Visar ändringar för en specifik fil mellan arbetskatalogen och staging-området."
+    }
 ]
