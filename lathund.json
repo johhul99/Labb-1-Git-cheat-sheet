@@ -7,5 +7,10 @@
     {
         "command": "git stash save \"<meddelande>\"",
         "description": "Sparar ändringar med ett eget meddelande för att enklare hitta dem senare."
+    },
+
+    {
+        "command": "git stash list",
+        "description": "Visar alla sparade stash-poster."
     }
 ]
