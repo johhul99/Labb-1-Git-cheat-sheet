@@ -60,5 +60,9 @@
     {
         "command": "git show",
         "description": "Visar information om senaste commit."
+    },
+    {
+        "command": "git show <commit>",
+        "description": "Visar detaljerad info om en specifik commit."
     }
 ]
