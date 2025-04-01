@@ -17,5 +17,10 @@
     {
         "command": "git stash apply",
         "description": "Återställer ändringar från senaste (eller vald) stash utan att ta bort den från listan."
+    },
+
+    {
+        "command": "git stash pop",
+        "description": "Återställer ändringar från senaste stash och tar samtidigt bort den från listan."
     }
 ]
