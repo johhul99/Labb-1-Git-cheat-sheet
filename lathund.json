@@ -27,5 +27,10 @@
     {
         "command": "git stash drop",
         "description": "Tar bort en specifik stash från listan."
+    },
+
+    {
+        "command": "git rm <fil>",
+        "description": "Tar bort en fil både från Git och från arbetskatalogen."
     }
 ]
