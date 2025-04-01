@@ -65,4 +65,8 @@
         "command": "git show <commit>",
         "description": "Visar detaljerad info om en specifik commit."
     }
+    {
+        "command": "git blame <fil>",
+        "description": "Visar vem som ändrat varje rad i en fil och när."
+    }
 ]
