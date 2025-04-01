@@ -47,5 +47,9 @@
     {
         "command": "git tag",
         "description": "Visar alla taggar i projektet."
+    },
+    {
+        "command": "git tag <tagg>",
+        "description": "Skapar en ny tagg för t.ex. en viss commit eller version."
     }
 ]
