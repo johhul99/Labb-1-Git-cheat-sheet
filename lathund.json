@@ -12,5 +12,10 @@
     {
         "command": "git stash list",
         "description": "Visar alla sparade stash-poster."
+    },
+
+    {
+        "command": "git stash apply",
+        "description": "Återställer ändringar från senaste (eller vald) stash utan att ta bort den från listan."
     }
 ]
