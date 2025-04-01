@@ -1,0 +1,6 @@
+[
+    {
+      "command": "git stash",
+      "description": "Tillfälligt sparar ändringar i en stash utan att committa dem."
+    }
+]
