@@ -2,5 +2,10 @@
     {
       "command": "git stash",
       "description": "Tillfälligt sparar ändringar i en stash utan att committa dem."
+    },
+
+    {
+        "command": "git stash save \"<meddelande>\"",
+        "description": "Sparar ändringar med ett eget meddelande för att enklare hitta dem senare."
     }
 ]
