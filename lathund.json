@@ -37,5 +37,10 @@
     {
         "command": "git rm --cached <fil>",
         "description": "Tar bort en fil från Git men behåller den lokalt."
+    },
+
+    {
+        "command": "git mv <från> <till>",
+        "description": "Byter namn på eller flyttar en fil i Git."
     }
 ]
