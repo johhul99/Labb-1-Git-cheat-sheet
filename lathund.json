@@ -56,5 +56,9 @@
     {
         "command": "git tag -d <tagg>",
         "description": "Tar bort en lokal tagg."
+    },
+    {
+        "command": "git show",
+        "description": "Visar information om senaste commit."
     }
 ]
