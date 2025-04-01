@@ -32,5 +32,10 @@
     {
         "command": "git rm <fil>",
         "description": "Tar bort en fil både från Git och från arbetskatalogen."
+    },
+
+    {
+        "command": "git rm --cached <fil>",
+        "description": "Tar bort en fil från Git men behåller den lokalt."
     }
 ]
