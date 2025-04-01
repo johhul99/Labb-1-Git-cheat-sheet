@@ -51,5 +51,10 @@
     {
         "command": "git tag <tagg>",
         "description": "Skapar en ny tagg för t.ex. en viss commit eller version."
+    },
+
+    {
+        "command": "git tag -d <tagg>",
+        "description": "Tar bort en lokal tagg."
     }
 ]
