@@ -42,5 +42,10 @@
     {
         "command": "git mv <från> <till>",
         "description": "Byter namn på eller flyttar en fil i Git."
+    },
+
+    {
+        "command": "git tag",
+        "description": "Visar alla taggar i projektet."
     }
 ]
