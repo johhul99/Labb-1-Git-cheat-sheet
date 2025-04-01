@@ -22,5 +22,10 @@
     {
         "command": "git stash pop",
         "description": "Återställer ändringar från senaste stash och tar samtidigt bort den från listan."
+    },
+
+    {
+        "command": "git stash drop",
+        "description": "Tar bort en specifik stash från listan."
     }
 ]
