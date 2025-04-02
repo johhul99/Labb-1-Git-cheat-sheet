@@ -1,62 +1,122 @@
 [
     {
-      "command": "git init",
-      "description": "Skapar ett nytt, tomt Git-repo i den aktuella mappen."
+        "command": "git init",
+        "description": "Skapar ett nytt, tomt Git-repo i den aktuella mappen."
     },
     {
-      "command": "git clone <url>",
-      "description": "Klonar ett existerande repo från en URL till din lokala maskin."
+        "command": "git clone <url>",
+        "description": "Klonar ett existerande repo från en URL till din lokala maskin."
     },
     {
-      "command": "git status",
-      "description": "Visar aktuell status på filer, vilka som är ändrade, staged, eller inte spårade."
+        "command": "git status",
+        "description": "Visar aktuell status på filer, vilka som är ändrade, staged, eller inte spårade."
     },
     {
-      "command": "git add <fil>",
-      "description": "Lägger till en specifik fil till staging-området inför commit."
+        "command": "git add <fil>",
+        "description": "Lägger till en specifik fil till staging-området inför commit."
     },
     {
-      "command": "git add .",
-      "description": "Lägger till alla ändrade och nya filer i nuvarande mapp till staging."
+        "command": "git add .",
+        "description": "Lägger till alla ändrade och nya filer i nuvarande mapp till staging."
     },
     {
-      "command": "git commit -m \"<meddelande>\"",
-      "description": "Commitar staged ändringar med ett meddelande som beskriver ändringen."
+        "command": "git commit -m \"<meddelande>\"",
+        "description": "Commitar staged ändringar med ett meddelande som beskriver ändringen."
     },
     {
-      "command": "git commit -am \"<meddelande>\"",
-      "description": "Commitar alla spårade ändringar (hoppar över git add) med ett meddelande."
+        "command": "git commit -am \"<meddelande>\"",
+        "description": "Commitar alla spårade ändringar (hoppar över git add) med ett meddelande."
     },
     {
-      "command": "git push",
-      "description": "Skickar dina commits till fjärr-repot (t.ex. GitHub, Azure DevOps)."
+        "command": "git push",
+        "description": "Skickar dina commits till fjärr-repot (t.ex. GitHub, Azure DevOps)."
     },
     {
-      "command": "git pull",
-      "description": "Hämtar och slår ihop ändringar från fjärr-repot till din lokala branch."
+        "command": "git pull",
+        "description": "Hämtar och slår ihop ändringar från fjärr-repot till din lokala branch."
     },
     {
-      "command": "git fetch",
-      "description": "Hämtar ändringar från fjärr-repot utan att slå ihop dem med din lokala kod."
+        "command": "git fetch",
+        "description": "Hämtar ändringar från fjärr-repot utan att slå ihop dem med din lokala kod."
     },
     {
-      "command": "git branch",
-      "description": "Visar en lista över alla lokala brancher och markerar vilken du är på."
+        "command": "git branch",
+        "description": "Visar en lista över alla lokala brancher och markerar vilken du är på."
     },
     {
-      "command": "git branch <namn>",
-      "description": "Skapar en ny branch med angivet namn."
+        "command": "git branch <namn>",
+        "description": "Skapar en ny branch med angivet namn."
     },
     {
-      "command": "git branch -d <namn>",
-      "description": "Tar bort en lokal branch (så länge den är mergad)."
+        "command": "git branch -d <namn>",
+        "description": "Tar bort en lokal branch (så länge den är mergad)."
     },
     {
-      "command": "git checkout <branch>",
-      "description": "Byter till en annan existerande branch."
+        "command": "git checkout <branch>",
+        "description": "Byter till en annan existerande branch."
     },
     {
-      "command": "git checkout -b <ny-branch>",
-      "description": "Skapar och byter direkt till en ny branch."
+        "command": "git checkout -b <ny-branch>",
+        "description": "Skapar och byter direkt till en ny branch."
+    },
+    {
+        "command": "git stash",
+        "description": "Tillfälligt sparar ändringar i en stash utan att committa dem."
+    },
+    {
+        "command": "git stash save \"<meddelande>\"",
+        "description": "Sparar ändringar med ett eget meddelande för att enklare hitta dem senare."
+    },
+    {
+        "command": "git stash list",
+        "description": "Visar alla sparade stash-poster."
+    },
+    {
+        "command": "git stash apply",
+        "description": "Återställer ändringar från senaste (eller vald) stash utan att ta bort den från listan."
+    },
+    {
+        "command": "git stash pop",
+        "description": "Återställer ändringar från senaste stash och tar samtidigt bort den från listan."
+    },
+    {
+        "command": "git stash drop",
+        "description": "Tar bort en specifik stash från listan."
+    },
+    {
+        "command": "git rm <fil>",
+        "description": "Tar bort en fil både från Git och från arbetskatalogen."
+    },
+    {
+        "command": "git rm --cached <fil>",
+        "description": "Tar bort en fil från Git men behåller den lokalt."
+    },
+    {
+        "command": "git mv <från> <till>",
+        "description": "Byter namn på eller flyttar en fil i Git."
+    },
+    {
+        "command": "git tag",
+        "description": "Visar alla taggar i projektet."
+    },
+    {
+        "command": "git tag <tagg>",
+        "description": "Skapar en ny tagg för t.ex. en viss commit eller version."
+    },
+    {
+        "command": "git tag -d <tagg>",
+        "description": "Tar bort en lokal tagg."
+    },
+    {
+        "command": "git show",
+        "description": "Visar information om senaste commit."
+    },
+    {
+        "command": "git show <commit>",
+        "description": "Visar detaljerad info om en specifik commit."
+    },
+    {
+        "command": "git blame <fil>",
+        "description": "Visar vem som ändrat varje rad i en fil och när."
     }
 ]
