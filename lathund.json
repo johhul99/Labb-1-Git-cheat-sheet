@@ -1,7 +1,7 @@
 [
     {
        "command": "git merge <branch>",
-       "description": "Slår ihop ändringar från en angiven branch till din nuvarande branch."
+       "description": "Slår ihop ändringar från angiven branch till din nuvarande branch."
     },
     {
        "command": "git log",
